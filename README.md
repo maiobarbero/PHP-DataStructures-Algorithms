@@ -10,6 +10,7 @@ This repository contains PHP implementations of various sorting algorithms and a
   - [Quick Sort](#quick-sort)
 - [Searching Algorithm](#searching-algorithm)
   - [Binary Search](#binary-search)
+  - [Binary Search Tree](#binary-search-tree)
 
 ## Sorting Algorithms
 
@@ -50,6 +51,23 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 - Best Case: O(1)
 - Average Case: O(log N)
 - Worst Case: O(log N)
+
+### Binary Search Tree (BST)
+
+A Binary Search Tree (BST) is a hierarchical data structure composed of nodes where each node contains a value, and the values in the left subtree are less than the value of the node, while the values in the right subtree are greater.
+
+#### Insertion Operation
+
+The insertion operation in a BST involves adding a new node with a specific value while maintaining the binary search tree property.
+
+#### Search Operation
+
+The search operation in a BST is efficient, leveraging the tree structure. It starts at the root and traverses the tree, comparing the search value with the values in each node. The search narrows down the possible locations until the target value is found or determined to be absent.
+
+#### Time Complexity:
+
+- Average Case (balanced tree): O(log N)
+- Worst Case (unbalanced tree): O(N)
 
 ## Usage
 
