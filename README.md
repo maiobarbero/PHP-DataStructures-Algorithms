@@ -52,7 +52,7 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 - Average Case: O(log N)
 - Worst Case: O(log N)
 
-### Binary Search Tree (BST)
+### Binary Search Tree
 
 A Binary Search Tree (BST) is a hierarchical data structure composed of nodes where each node contains a value, and the values in the left subtree are less than the value of the node, while the values in the right subtree are greater.
 
