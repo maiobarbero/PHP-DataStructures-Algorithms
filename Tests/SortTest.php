@@ -15,7 +15,7 @@ final class SortTest extends TestCase
 
     public function setUp(): void
     {
-        $this->arrayToSort = [10, 11, 0, 54, 9, 80, 1, 0, 10, 54];
+        $this->arrayToSort = [10, 11, 0, 54, 9, 80, 1, 0, 10, 54,100,12,300,11,45,2,5,99];
         $this->expectedSortedArray = $this->arrayToSort;
         sort($this->expectedSortedArray);
     }
